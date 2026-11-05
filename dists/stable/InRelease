@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Thu, 05 Nov 2026 23:13:32 +0000
+Description: rustbb, the bulletin board
+Label: RustBB
+Origin: RustBB
+Suite: stable
+MD5Sum:
+ 6356bb7331473ec0301ab906024732f5             3495 main/binary-amd64/Packages
+ 15b53daa1c138954b8dcefde26ec2e9a             1193 main/binary-amd64/Packages.gz
+ 4b861327ab198367a70fc10d85038548             3495 main/binary-arm64/Packages
+ 222be1507ef6032595036b2710d8ca9b             1188 main/binary-arm64/Packages.gz
+SHA1:
+ 87c12d2b2cb3c18afe42d2f3def6462d9c853931             3495 main/binary-amd64/Packages
+ ec08ad82c7bde5875389d3b63bca63ab0d9184e3             1193 main/binary-amd64/Packages.gz
+ cb52cc3fb7a46589869490d806a79c180496244c             3495 main/binary-arm64/Packages
+ 521bd9f64fd69df5b5292dfe6dff031c33dc3d09             1188 main/binary-arm64/Packages.gz
+SHA256:
+ 9d43471f142adc48ab36c93efd91c7a71a61c04c851e6134091b655206ad50d6             3495 main/binary-amd64/Packages
+ 23d2942be9c9590ab4fff78b65494b2e945bab0a373b5e79d578a9a1f495ecd2             1193 main/binary-amd64/Packages.gz
+ f092dcfd0909aaba3f316d68012f6cf36b16f64f6158a2e214bfabc731bfd073             3495 main/binary-arm64/Packages
+ 3c7d42ce908023f0866f16d619e73461155105f30ff19732ef8869700f3d44f6             1188 main/binary-arm64/Packages.gz
+SHA512:
+ 2f22ca1ac1035ff193fd13e1466fc2bbe313ed8fe79fc52dbff2093ccd32fe8fe72a07ab17fb4ead36430d3b071a5139b6738f9bee78fba45b0ffffe83445933             3495 main/binary-amd64/Packages
+ b42eff00acda7d72329474fdb51080d7e6142d676fa3906e701e143b501cea3dc816009917cf689c29ea75ccc176d03072f207d70042902d6552248b1e1e580d             1193 main/binary-amd64/Packages.gz
+ cddbd2a8d21cf65090eb883d1e137018e5373e47e2c5aa62790696902a9e73f1d3b0f955b432542a55096b5d9f8696310fce4a3d1e084af133502c18cbcdb9cd             3495 main/binary-arm64/Packages
+ 135d4019d46e40e64cfcff5c7c9b7dbe9fcb887b42f6df4976cd11de8bd9b9dc70185fe842c3d5d1eca2e9ae4ab9b868ee9567e4be75148d3a740dbabbeb6627             1188 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEilyRbCIxlz9NafhNZ1oUXrz0XMIFAmrtDZwACgkQZ1oUXrz0
+XMIC3A/6AzJjM4p/bAXm04U+xdPCuxoGFXdKlBeYYwof/pi0+QCcNv6zfEgxwypj
+5kKZ6E8gh5YPtkPSG3P4840aX+dauyTvis06LAKfKO7eQUiB/k5uKWGNYmiF9+Hw
+Fz2glQ8wrvKY11TDFcpaucbFcZXvpdzmhdKj+JA1ZwkX8w49WV+JiNnEkxlFbLSb
+bmI7aeIRRpFuAVbjKaIBoDaIkVD6OQTgln5k6klWgw9mgKXfOjV8OohlpOBk6c0Y
+oBMjz1LPctFTOp1yFgtkr0CkdPile0a3zKgTaZ9LWRwoGIRj9d3VDLhOD3UOwUbM
+wRxXYA3DDLby/DXTRHZNJa8r5+Q1CPsTxPSOky3CK7A1SrsOYvNG2HVJ0SAhtcPR
+Y+vcx/MxNEYRcEpRohcBhb1Vr19I6vjt59D/cd7uMh6oBnKwe9YfaCBtwq2fSey+
+mY04LVnqmUROPI0qy991jgg7YdPJNhB8FOcPq7u74FxAZv0lLcLMxGG4BRE7tAze
+0VMdavHQ2tcAdUTxcYaWNOJN/9k6vcGJWIaZy5zWPpGzWWN0tf1Muu5waUzoESJO
+axUsa3H3iH2dXytB1cXVQ3WHlSJgrcmroyg2heDCM22VOGD6egID6vM92/i6TaO1
+oxqsk+vRvFm4s9B0doIK1i6nzVN7q+97RWMIDJmYTaa6qWvP278=
+=fKOn
+-----END PGP SIGNATURE-----

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RustBB APT repository</title>
+<style>
+  body { max-width: 46rem; margin: 2rem auto; padding: 0 1rem; font: 16px/1.5 system-ui, sans-serif; color: #1f2328; }
+  pre { background: #f6f8fa; padding: 0.75rem 1rem; overflow-x: auto; }
+  code { font: 14px ui-monospace, monospace; }
+</style>
+<h1>RustBB APT repository</h1>
+<p>The <code>rustbb</code> package for Debian and Ubuntu, amd64 and arm64, signed by the key
+<code>8A5C 916C 2231 973F 4D69 F84D 675A 145E BCF4 5CC2</code>. To add it and install RustBB:</p>
+<pre><code>sudo install -d -m 0755 /etc/apt/keyrings
+sudo curl -fsSLo /etc/apt/keyrings/rustbb.gpg https://rustbb.github.io/apt/rustbb.gpg
+printf 'Types: deb\nURIs: https://rustbb.github.io/apt\nSuites: stable\nComponents: main\nSigned-By: /etc/apt/keyrings/rustbb.gpg\n' |
+  sudo tee /etc/apt/sources.list.d/rustbb.sources
+sudo apt update &amp;&amp; sudo apt install rustbb</code></pre>
+<p>Upgrades come with <code>apt upgrade</code>. With <a href="https://xenia-platform.github.io/apt/">Xenia's repository</a>
+added too, <code>sudo apt install rustbb xenia-server</code> sets up the forum and the web server in front of it.
+<a href="https://rustbb.github.io/deployment/#packages">Deployment</a> says what the package sets up.</p>
+</html>

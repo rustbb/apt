@@ -1,0 +1,75 @@
+Package: rustbb
+Architecture: arm64
+Version: 0.7.0
+Priority: optional
+Section: web
+Maintainer: RustBB <2877080+ofkindness@users.noreply.github.com>
+Installed-Size: 12180
+Suggests: xenia-server
+Filename: pool/main/r/rustbb/rustbb_0.7.0_arm64.deb
+Size: 4144376
+MD5sum: 4737f9a4f4b0a8dedef6b1bf495c4e6e
+SHA1: d520c4969c0eb931c3eebea30067b2670a2effd5
+SHA256: ef517075818303a8201a0a5f15061ddf6f29c09366331652245552d4e2af6b59
+SHA512: 9747afd5edc24da75e71f84734dbc8c5170f1c3905970934c6da3bc121a1fa14f6ab8417ed8da6d6170f98927aabde61cf043a49454091b91942820f3b227296
+Homepage: https://rustbb.github.io
+Description: lightweight bulletin board in one executable
+ RustBB is a forum: categories, topics and posts in Markdown, sign-in with
+ Telegram, OpenID Connect, GitHub or passkeys, moderation, search, feeds
+ and bot notifications, in one static binary with an SQLite database.
+ .
+ This package installs it as a systemd service, rustbb, which runs as a
+ dynamic user with its database in /var/lib/rustbb. It is not started:
+ set up the forum in /etc/rustbb/env, then systemctl enable --now rustbb.
+ A web server in front, such as Xenia (xenia-server), serves it over HTTPS.
+
+Package: rustbb
+Architecture: arm64
+Version: 0.7.1
+Priority: optional
+Section: web
+Maintainer: RustBB <2877080+ofkindness@users.noreply.github.com>
+Installed-Size: 12260
+Suggests: xenia-server
+Filename: pool/main/r/rustbb/rustbb_0.7.1_arm64.deb
+Size: 4164948
+MD5sum: 984452dbfb00411b1c4d1c00cedbf2fc
+SHA1: 5b0c6341cc6273613edd2458c814f6cf115a3beb
+SHA256: 0d2188d463fca2a76d223917a41d076eaf217a7ceb17b9e2cb6a47464341a8b1
+SHA512: 2299803a611b942dcb84123d54247e5287ffa6aef5a744044e3cca8d0ed063457a27bb07116e6215cb6bbbb8e6313614dd4404a7ca0346c4b61b98b768cc3cb8
+Homepage: https://rustbb.github.io
+Description: lightweight bulletin board in one executable
+ RustBB is a forum: categories, topics and posts in Markdown, sign-in with
+ Telegram, OpenID Connect, GitHub or passkeys, moderation, search, feeds
+ and bot notifications, in one static binary with an SQLite database.
+ .
+ This package installs it as a systemd service, rustbb, which runs as a
+ dynamic user with its database in /var/lib/rustbb. It is not started:
+ set up the forum in /etc/rustbb/env, then systemctl enable --now rustbb.
+ A web server in front, such as Xenia (xenia-server), serves it over HTTPS.
+
+Package: rustbb
+Architecture: arm64
+Version: 0.8.0
+Priority: optional
+Section: web
+Maintainer: RustBB <2877080+ofkindness@users.noreply.github.com>
+Installed-Size: 12484
+Suggests: xenia-server
+Filename: pool/main/r/rustbb/rustbb_0.8.0_arm64.deb
+Size: 4253004
+MD5sum: 7ca758ed46141ce32f0259043f92f5d1
+SHA1: 6320dd4f3f41cd9dfdb32382307f8fec18d4d0f8
+SHA256: d9c8b7ac7e0dcee4fdfec279e8307f79eb458d1dc13b39a3e61d7a3e3d73a7ee
+SHA512: f931ecf8a152695651943067a7f0bce9246f8aad372d606d1d661574781fc78d4ee0468d2f1cc92beb659a9cda4c6dd019d8b6ba9cad06e70df78346c02f7dbc
+Homepage: https://rustbb.github.io
+Description: lightweight bulletin board in one executable
+ RustBB is a forum: categories, topics and posts in Markdown, sign-in with
+ Telegram, OpenID Connect, GitHub or passkeys, moderation, search, feeds
+ and bot notifications, in one static binary with an SQLite database.
+ .
+ This package installs it as a systemd service, rustbb, which runs as a
+ dynamic user with its database in /var/lib/rustbb. It is not started:
+ set up the forum in /etc/rustbb/env, then systemctl enable --now rustbb.
+ A web server in front, such as Xenia (xenia-server), serves it over HTTPS.
+
